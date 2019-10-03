@@ -21,7 +21,7 @@ const GithubCorner = ({ theme }) => {
 
   return (
     <a
-      href="https://github.com/justinryder/cats-gg"
+      href="https://github.com/justinryder/puppies-gg"
       className={[
         'github-corner',
         `github-corner--${side}`,

@@ -1,5 +1,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
-# cats-gg
+# puppies-gg
+[Puppies.gg](http://puppies.gg/) - Sweet Dog Pics!
+
+Brought to you by,
 [Cats.gg](http://cats.gg/) - Sweet Cat Pics!
 
 # Query Parameters

@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import './CatFact.css';
-import {getCatFact} from "../selectors/catSelectors";
+import {getDogFact} from "../selectors/catSelectors";
 import * as catActions from "../actions/catActions";
 
 class CatFact extends PureComponent {
@@ -14,7 +14,7 @@ class CatFact extends PureComponent {
             <div
                 className="cat-fact"
                 onClick={this.handleCatFactClick}
-                title="Click for another cat fact!"
+                title="Click for another dog fact!"
             >
                 <div className="cat-fact__label">Did You Know?</div>
                 <div className="cat-fact__fact">{this.props.catFact}</div>
@@ -24,8 +24,7 @@ class CatFact extends PureComponent {
 }
 
 const mapStateToProps = state => ({
-    catFact: getCatFact(state),
+    catFact: getDogFact(state),
 });
 
 export default connect(mapStateToProps)(CatFact);
-

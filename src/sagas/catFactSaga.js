@@ -1,10 +1,10 @@
 import { call, put, takeEvery } from "redux-saga/effects";
-import getCatFact from "../utils/getCatFact";
+import getDogFact from "../utils/getDogFact";
 import {setCatFact} from "../actions/catActions";
 import * as catActions from "../actions/catActions";
 
 function* nextCatFact() {
-  const fact = getCatFact();
+  const fact = getDogFact();
   yield put(setCatFact(fact));
 }
 

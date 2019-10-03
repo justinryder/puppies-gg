@@ -88,7 +88,7 @@ class Cats extends PureComponent {
             <div className="cats__controls">
               <div
                 className="cats-control"
-                title={`Displaying cat ${this.props.index + 1} out of {this.props.imageCount}`}
+                title={`Displaying dog ${this.props.index + 1} out of {this.props.imageCount}`}
               >
                 Cat {this.props.index + 1} / {this.props.imageCount}
               </div>
@@ -135,7 +135,7 @@ class Cats extends PureComponent {
                 className="cats-control"
                 disabled={this.props.displayMode === DisplayMode.Gifs}
                 onClick={this.handleSetDisplayMode.bind(this, DisplayMode.Gifs)}
-                title="View Cat Gifs"
+                title="View Dog Gifs"
               >
                 🎥 Gifs
               </button>
@@ -143,17 +143,17 @@ class Cats extends PureComponent {
                 className="cats-control"
                 disabled={this.props.displayMode === DisplayMode.Pictures}
                 onClick={this.handleSetDisplayMode.bind(this, DisplayMode.Pictures)}
-                title="View Cat Pictures"
+                title="View Dog Pictures"
               >
                 📷 Pics
               </button>
               <button
                 className="cats-control"
-                disabled={this.props.displayMode === DisplayMode.CoolCats}
-                onClick={this.handleSetDisplayMode.bind(this, DisplayMode.CoolCats)}
-                title="View Cool Cats"
+                disabled={this.props.displayMode === DisplayMode.DopeDogs}
+                onClick={this.handleSetDisplayMode.bind(this, DisplayMode.DopeDogs)}
+                title="View Dope Dogs"
               >
-                😎 Cool Cats
+                😎 Dope Dogs
               </button>
             </div>
           </div>

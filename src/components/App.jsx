@@ -32,20 +32,23 @@ class App extends Component {
         <button
             className="app__theme-toggle"
             onClick={this.handleThemeToggle}
+            title="Toggle Theme"
         >
           {this.props.theme === Theme.Light && '🌅'}
           {this.props.theme === Theme.Dark && '🌇'}
         </button>
         <div className="app__header">
-          <h1 className="heading">Cats.gg</h1>
+          <h1 className="heading">Puppies.gg</h1>
           <h3 className="sub-heading">
-            <span>Bringing You Sweet Cat</span>
+            Bringing You Sweet Dog
             {' '}
             <Link to="/">Pics</Link>
             {' '}
             <Link to="emoji">(and Emoji!)</Link>
             {' '}
-            <span>Since 2018 😻</span>
+            <a href="//cats.gg">(AND CATS!😻)</a>
+            {' '}
+            Since 2019
           </h3>
           <CatFact/>
         </div>

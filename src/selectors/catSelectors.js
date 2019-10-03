@@ -15,7 +15,7 @@ export const getCatGif = createSelector([
   getCatState,
 ], state => state.catGif);
 
-export const getCatFact = createSelector([
+export const getDogFact = createSelector([
   getCatState,
 ], state => state.catFact);
 

@@ -11,7 +11,7 @@ import delay from "../utils/delay";
 import coolCats from "../data/generated/cool-cats.json";
 import getRandomItem from "../utils/getRandomItem";
 
-const getRandomCatImage = getRandomImage('cats', 'kittens');
+const getRandomCatImage = getRandomImage('dogs', 'puppies');
 
 function* getNewPictureImage() {
   const picture = yield getRandomCatImage();
@@ -35,7 +35,7 @@ function* getNewImage() {
       return yield call(getNewGifImage);
     case DisplayMode.Pictures:
       return yield call(getNewPictureImage);
-    case DisplayMode.CoolCats:
+    case DisplayMode.DopeDogs:
       return yield call(getNewCoolCatImage);
   }
 }

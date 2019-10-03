@@ -1,5 +1,5 @@
 
-const SessionId = 'UA-128433075-1';
+const SessionId = 'UA-128433075-2';
 
 export const log = (...params) => {
   window.ga(...params);
