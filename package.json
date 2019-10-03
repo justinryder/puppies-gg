@@ -59,7 +59,7 @@
     "create-cool-cats-map": "node scripts/create-cool-cats-map.js",
     "download-cool-cats": "node scripts/download-cool-cats.js -f cool-cats.txt",
     "start": "node scripts/start.js",
-    "serve": "PORT=3001 forever start scripts/start.js",
+    "serve": "PORT=3003 forever start scripts/start.js",
     "stop": "forever stop scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
