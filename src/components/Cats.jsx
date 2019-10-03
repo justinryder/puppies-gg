@@ -90,7 +90,7 @@ class Cats extends PureComponent {
                 className="cats-control"
                 title={`Displaying dog ${this.props.index + 1} out of {this.props.imageCount}`}
               >
-                Cat {this.props.index + 1} / {this.props.imageCount}
+                Dog {this.props.index + 1} / {this.props.imageCount}
               </div>
               <button
                 className="cats-control"
