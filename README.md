@@ -1,6 +1,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
 # puppies-gg
-[Puppies.gg](http://puppies.gg/) - Sweet Dog Pics!
+[Puppies.gg](http://puppies.gg/) - Serving you sweet dog pics using intentionally bad forked code since 2019!
 
 Brought to you by,
 [Cats.gg](http://cats.gg/) - Sweet Cat Pics!
